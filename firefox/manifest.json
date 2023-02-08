@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Duino Tracker",
-    "version": "0.7",
+    "version": "0.8",
     "description": "Track your duino coin portfolio with ease using our browser addon! Real-time updates, it easy to stay on top of your coins. Perfect for duinocoin miners and crypto traders. Download now!",
     "homepage_url": "https://github.com/petersimeth/duino_tracker",
 
@@ -10,10 +10,6 @@
         "48": "icons/icon48.png",
         "96": "icons/icon96.png"
     },
-
-    "permissions": [
-        "activeTab"
-    ],
     "browser_specific_settings": {
         "gecko": {
           "id": "peter@simeth.net"
@@ -23,8 +19,5 @@
         "default_icon": "icons/icon32.png",
         "default_title": "Duino Tracker",
         "default_popup": "popup/index.html"
-    },
-    "web_accessible_resources": [
-        "popup/*.png"
-    ]
+    }
 }
