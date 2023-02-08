@@ -1,0 +1,93 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("bg1.png");
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+* {
+    font-family: system-ui, 
+        -apple-system, 
+        BlinkMacSystemFont, 
+        'Segoe UI', 
+        Roboto, 
+        Oxygen, 
+        Ubuntu, 
+        Cantarell, 
+        'Open Sans', 
+        'Helvetica Neue',
+        sans-serif;
+}
+
+.coin_box {
+    min-width: 300px;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-image: url("bg1.png");
+    color: whitesmoke;
+    padding-bottom: 60%;
+}
+
+#balance, #username {
+    padding-left: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+#miners {
+    color:whitesmoke;
+    background-image: url("bg1.png");
+    padding: 3%;
+    text-align: center;
+}
+
+#staking {
+    color:whitesmoke;
+    background-image: url("bg1.png");
+    text-align: center;
+    padding: 3%;
+}
+
+#settings_details {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+#settings_box {
+    padding-top: 3%;
+}
+
+#setting_details button {
+    background-color:darkslategrey;
+}
+
+#username_value, #set_username_button  {
+    color:whitesmoke;
+    background-color: rgb(43, 43, 43);
+    width: 45%;
+}
+
+small {
+    font-size: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color:#f2a710;
+}
+
+.settings_box {
+    background-image: url("bg1.png");
+}
+
+#version {
+    color:lightgray; 
+    text-align: right;
+    padding-top: 3%; 
+    padding-right: 3%;
+}

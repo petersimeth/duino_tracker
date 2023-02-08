@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Onecom.io - Duinocoin Balance Viewer</title>
+</head>
+<body>
+    <div style="color:lightgray; text-align: right;padding-top: 3%; padding-right: 3%;">CURRENT VERSION: 0.1.4 ALPHA</div>
+    <hr>
+    <div class="coin_box">
+        <h1 id="username"></h1>
+        <div id="balance">
+            <span class='highlight' id="balance_value"></span>
+            <small> DUCO</small>
+        </div>
+    </div>
+
+    <div id="staking">
+        <div id="stake_warning"></div>
+        Your staking ends in <span class='highlight' id="staking_value"></span> days.
+        <br> You currently stake <span class='highlight' id="stake_amount"></span> <small>DUCO</small>
+    </div>
+
+    <div id="miners">
+        <span class='highlight' id="miners_count"></span> Nodes online 
+        <br>with a total rate of <span class='highlight' id="hashrate_combined"></span>
+    </div>
+
+    <div class="settings_box">
+        <div id="settings_details">
+            <input id="username_value" type="text" value="Username">
+            <button id="set_username_button">Set Username</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
