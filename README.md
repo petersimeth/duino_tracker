@@ -14,6 +14,8 @@ Track your duino coin portfolio with ease using our browser addon! Real-time upd
 ## Usage
 You don't need to login to your account, just enter your username. 
 The Addon uses the public API from Duino Coin.
+- Chrome: https://chrome.google.com/webstore/detail/duino-tracker/
+- Firefox: https://addons.mozilla.org/de/firefox/addon/duino-tracker/
 
 ## Technologies
 - HTML
